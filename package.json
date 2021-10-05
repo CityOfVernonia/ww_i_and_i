@@ -1,5 +1,5 @@
 {
-  "name": "vite-map-app",
+  "name": "ww_i_and_i",
   "version": "1.0.0",
   "scripts": {
     "build": "vite build",
@@ -12,14 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/COV-GIS/vite-map-app.git"
+    "url": "git+https://github.com/CityOfVernonia/ww_i_and_i.git"
   },
   "author": "COV-GIS",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/COV-GIS/vite-map-app/issues"
-  },
-  "homepage": "https://github.com/COV-GIS/vite-map-app#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",

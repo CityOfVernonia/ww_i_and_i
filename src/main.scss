@@ -30,3 +30,40 @@ body {
 }
 
 @import "@vernonia/core/css/cov.scss";
+
+.esri-legend {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: var(--calcite-ui-background);
+  // disable weird focusing with legend inside calcite-tab
+  * {
+    pointer-events: none;
+  }
+
+  * {
+    font-size: var(--calcite-font-size--2);
+    font-weight: 100;
+  }
+
+  .esri-legend__service {
+    padding: 6px 7.5px;
+  }
+
+  .esri-legend__layer-table {
+    margin-bottom: 4px;
+  }
+
+  .esri-legend__layer-cell--symbols {
+    padding: 0;
+  }
+
+  .esri-legend__symbol {
+    svg {
+      transform: scale(75%);
+    }
+  }
+
+  .esri-widget__heading {
+    margin-bottom: 0.25rem;
+  }
+}
